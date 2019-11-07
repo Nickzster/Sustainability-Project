@@ -1,6 +1,6 @@
 # ENVS100 SUSTAINABILITY PROJECT!
 
-In order to develop for the sustainability, you will need to install some stuff:
+In order to develop for the sustainability project, you will need to install some stuff:
 
 - Node.js (you can find it [here](https://nodejs.org/en/))
 - NPM (comes with Node.js)
