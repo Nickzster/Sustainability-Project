@@ -1,0 +1,49 @@
+{
+  "WhatIsSustainability": {
+    "title": "What is Sustainability?",
+    "content": [
+      {
+        "title": "Box One",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+      },
+      {
+        "title": "Box Two",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+      },
+      {
+        "title": "Box Three",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+      }
+    ]
+  },
+  "HowCanIBeMoreSustainable": {
+    "title": "How Can I Be More Sustainable?",
+    "content": [
+      {
+        "title": "Take Our Quiz!",
+        "body": "Take Our Quiz Here!",
+        "url": "#"
+      }
+    ]
+  },
+  "ExtendedLearning": {
+    "title": "Want to Learn More?",
+    "content": [
+      {
+        "title": "Resource # 1",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "url": "#"
+      },
+      {
+        "title": "Resource # 2",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "url": "#"
+      },
+      {
+        "title": "Resource # 3",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "url": "#"
+      }
+    ]
+  }
+}

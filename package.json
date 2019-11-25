@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.12",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "typescript": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && aws s3 sync build/ s3://sustainability-project",
+    "build": "react-scripts build && websync build/ s3://sustainability-project",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
