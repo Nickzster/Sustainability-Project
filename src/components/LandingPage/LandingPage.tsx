@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import LandingBanner from "./LandingBanner";
 import PageCardSection from "./PageCardSection";
-import LandingPageContent from "./content/landingpage.json";
+import LandingPageContent from "../../content/LandingPage.json";
 import "../../styles/global.css";
 
 const LandingPage: React.FunctionComponent = () => {
