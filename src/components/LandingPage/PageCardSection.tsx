@@ -5,6 +5,7 @@ interface Content {
   title: string;
   body: string;
   url?: string;
+  imageURL?: string;
 }
 
 interface Props {
@@ -16,20 +17,29 @@ const CardPageSection: React.FunctionComponent<Props> = props => {
   const { content, sectionTitle } = props;
   return (
     <React.Fragment>
-      <div className="card-container">
-        <h2 style={{ marginBottom: "2em" }}>{sectionTitle}</h2>
-        {content.map(card => {
-          return (
-            <div key={card.title} className="card">
-              <h3>{card.title}</h3>
-              {card.url === undefined ? (
-                <p>{card.body}</p>
-              ) : (
-                <a href={card.url}>{card.body}</a>
-              )}
-            </div>
-          );
-        })}
+      <div className="card-section">
+        <h2 style={{ padding: "1em 0em" }}>{sectionTitle}</h2>
+        <div className="card-container">
+          {content.map(card => {
+            console.log(card.imageURL);
+            return (
+              <div key={card.title} className="card">
+                {card.imageURL === undefined ? null : (
+                  <img
+                    style={{ color: "#fff" }}
+                    src={require('../../images/tree.svg')}
+                  />
+                )}
+                <h3>{card.title}</h3>
+                {card.url === undefined ? (
+                  <p>{card.body}</p>
+                ) : (
+                  <a href={card.url}>{card.body}</a>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </React.Fragment>
   );

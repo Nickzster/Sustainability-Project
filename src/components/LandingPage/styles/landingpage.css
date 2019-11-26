@@ -47,12 +47,24 @@
   }
 }
 
+.card-section {
+  background-color: #f2f2f2;
+  color: #000;
+  text-align: center;
+}
+
+.card-section > h2 {
+  /* margin: 1em; */
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   color: #000;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  align-content: center;
+  justify-content: center;
 }
 
 .card-container > h2 {
@@ -72,8 +84,38 @@
 
 .card > h3 {
   margin-bottom: 1em;
+  font-size: 2em;
 }
 
 .card > p {
   margin-bottom: 0.5em;
+}
+
+.card > img {
+  margin: 2em 0em;
+  height: 6em;
+  width: auto;
+}
+
+@media only screen and (min-width: 875px) {
+  .card {
+    margin: 1em 1em;
+    min-width: 15em;
+  }
+
+  .card-container {
+    flex-direction: row;
+    margin: 0em 1em;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .card {
+    margin: 1em 1em;
+    max-width: 30em;
+  }
+
+  .card-container {
+    flex-direction: row;
+    margin: 0em 1em;
+  }
 }

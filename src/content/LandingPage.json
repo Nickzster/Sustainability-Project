@@ -4,15 +4,18 @@
     "content": [
       {
         "title": "Box One",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "imageURL": "../../images/leaf.svg"
       },
       {
         "title": "Box Two",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "imageURL": "../../images/leaf.svg"
       },
       {
         "title": "Box Three",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "imageURL": "../../images/leaf.svg"
       }
     ]
   },
@@ -22,7 +25,8 @@
       {
         "title": "Take Our Quiz!",
         "body": "Take Our Quiz Here!",
-        "url": "#"
+        "url": "#",
+        "imageURL": "../../images/leaf.svg"
       }
     ]
   },
@@ -32,17 +36,20 @@
       {
         "title": "Resource # 1",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "page/resource-one"
+        "url": "page/resource-one",
+        "imageURL": "../../images/leaf.svg"
       },
       {
         "title": "Resource # 2",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "#"
+        "url": "#",
+        "imageURL": "../../images/leaf.svg"
       },
       {
         "title": "Resource # 3",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "#"
+        "url": "#",
+        "imageURL": "../../images/leaf.svg"
       }
     ]
   }
