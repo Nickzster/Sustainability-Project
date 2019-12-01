@@ -1,11 +1,11 @@
-import React from "react";
-import "./styles/landingpage.css";
+import React from 'react';
+import './styles/landingpage.css';
 
 interface Content {
   title: string;
   body: string;
   url?: string;
-  imageURL?: string;
+  imageName?: string;
 }
 
 interface Props {
@@ -15,19 +15,19 @@ interface Props {
 
 const CardPageSection: React.FunctionComponent<Props> = props => {
   const { content, sectionTitle } = props;
+
   return (
     <React.Fragment>
-      <div className="card-section">
-        <h2 style={{ padding: "1em 0em" }}>{sectionTitle}</h2>
-        <div className="card-container">
+      <div className='card-section'>
+        <h2 style={{ padding: '1em 0em' }}>{sectionTitle}</h2>
+        <div className='card-container'>
           {content.map(card => {
-            console.log(card.imageURL);
             return (
-              <div key={card.title} className="card">
-                {card.imageURL === undefined ? null : (
+              <div key={card.title} className='card'>
+                {card.imageName === undefined ? null : (
                   <img
-                    style={{ color: "#fff" }}
-                    src={require('../../images/tree.svg')}
+                    style={{ color: '#fff' }}
+                    src={require(`../../images/${card.imageName}`)}
                   />
                 )}
                 <h3>{card.title}</h3>

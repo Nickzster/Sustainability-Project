@@ -5,17 +5,17 @@
       {
         "title": "Box One",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "leaf.svg"
       },
       {
         "title": "Box Two",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "tree.svg"
       },
       {
         "title": "Box Three",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "leaf.svg"
       }
     ]
   },
@@ -23,10 +23,18 @@
     "title": "How Can I Be More Sustainable?",
     "content": [
       {
+        "title": "Resource # 1",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+      },
+      {
         "title": "Take Our Quiz!",
         "body": "Take Our Quiz Here!",
         "url": "#",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "test.svg"
+      },
+      {
+        "title": "Resource # 3",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
       }
     ]
   },
@@ -37,19 +45,19 @@
         "title": "Resource # 1",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "page/resource-one",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "leaf.svg"
       },
       {
         "title": "Resource # 2",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "#",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "leaf.svg"
       },
       {
         "title": "Resource # 3",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "#",
-        "imageURL": "../../images/leaf.svg"
+        "imageName": "leaf.svg"
       }
     ]
   }

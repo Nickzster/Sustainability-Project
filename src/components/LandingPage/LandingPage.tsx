@@ -1,16 +1,16 @@
-import React from "react";
-import NavBar from "./NavBar";
-import LandingBanner from "./LandingBanner";
-import PageCardSection from "./PageCardSection";
-import LandingPageContent from "../../content/LandingPage.json";
-import "../../styles/global.css";
+import React from 'react';
+import NavBar from './NavBar';
+import LandingBanner from './LandingBanner';
+import PageCardSection from './PageCardSection';
+import LandingPageContent from '../../content/LandingPage.json';
+import '../../styles/global.css';
+import { BottomBar } from './BottomBar/BottomBar';
 
 const LandingPage: React.FunctionComponent = () => {
   return (
     <React.Fragment>
       <LandingBanner />
-
-      <div className="background-image">
+      <div className='background-image'>
         <PageCardSection
           sectionTitle={LandingPageContent.WhatIsSustainability.title}
           content={LandingPageContent.WhatIsSustainability.content}
@@ -24,6 +24,7 @@ const LandingPage: React.FunctionComponent = () => {
           content={LandingPageContent.ExtendedLearning.content}
         />
       </div>
+      <BottomBar />
     </React.Fragment>
   );
 };
