@@ -15,7 +15,7 @@
       {
         "title": "Box Three",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageName": "leaf.svg"
+        "imageName": "brain.svg"
       }
     ]
   },
@@ -24,17 +24,19 @@
     "content": [
       {
         "title": "Resource # 1",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "imageName": "mountain.svg"
       },
       {
         "title": "Take Our Quiz!",
         "body": "Take Our Quiz Here!",
-        "url": "#",
-        "imageName": "test.svg"
+        "url": "/pages/live-more-sustainably",
+        "imageName": "leaf.svg"
       },
       {
         "title": "Resource # 3",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad."
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "imageName": "sustainable-house.svg"
       }
     ]
   },
@@ -45,19 +47,23 @@
         "title": "Resource # 1",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "page/resource-one",
-        "imageName": "leaf.svg"
+        "imageName": "eyeball.svg"
       },
       {
         "title": "Resource # 2",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "#",
-        "imageName": "leaf.svg"
+        "imageName": "green-lightbulb.svg",
+        "extraStyling": {
+          "width": "100px",
+          "height": "100px"
+        }
       },
       {
         "title": "Resource # 3",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
         "url": "#",
-        "imageName": "leaf.svg"
+        "imageName": "recycle.svg"
       }
     ]
   }

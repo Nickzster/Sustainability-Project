@@ -1,11 +1,16 @@
 import React from 'react';
 import './styles/landingpage.css';
+import { Link } from 'react-router-dom';
 
 interface Content {
   title: string;
   body: string;
   url?: string;
   imageName?: string;
+  extraStyling?: {
+    width: string;
+    height: string;
+  };
 }
 
 interface Props {
@@ -34,7 +39,7 @@ const CardPageSection: React.FunctionComponent<Props> = props => {
                 {card.url === undefined ? (
                   <p>{card.body}</p>
                 ) : (
-                  <a href={card.url}>{card.body}</a>
+                  <Link to={card.url}>{card.body}</Link>
                 )}
               </div>
             );

@@ -1,6 +1,7 @@
 import React from "react";
 import LandingPage from "./components/LandingPage/index";
 import Quiz from "./components/Quiz";
+import Guide from "./components/Guide";
 import Page from "./components/Page";
 import NotFound from "./components/NotFound/NotFound";
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
@@ -12,8 +13,8 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/sustainability-quiz" component={Quiz} />
-          <Route exact path="/page/:id" component={Page} />
+          <Route exact path="/pages/live-more-sustainably" component={Guide} />
+          <Route exact path="/pages/:id" component={Page} />
           <Route component={NotFound} />
         </Switch>
       </Router>

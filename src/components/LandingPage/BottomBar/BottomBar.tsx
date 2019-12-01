@@ -4,7 +4,7 @@ import './styles/bottombar.css';
 export const BottomBar: React.FunctionComponent = () => {
   return (
     <div className='bottom-bar'>
-      <p>CSUSM Environment Studies 100</p>
+      <h2>CSUSM Environment Studies 100</h2>
       <p>Sustainability Project by Nick, Amaury, and Taylor</p>
     </div>
   );
