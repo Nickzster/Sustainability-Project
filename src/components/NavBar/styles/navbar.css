@@ -1,0 +1,8 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  padding: 0.2em 1em;
+  position: absolute;
+}

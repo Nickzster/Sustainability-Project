@@ -1,19 +1,24 @@
 import React from 'react';
+import './styles/guide.css';
+import GuideContent from '../../content/Guide.json';
+import GuideCard from './GuideCard';
 
 const Guide: React.FunctionComponent = () => {
   return (
-    <div className='guide-container'>
-      <div className='guide-question'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?
-        </p>
+    <div className='background-image'>
+      <div className='guide-intro'>
+        <h1>How can I be more sustainable?</h1>
+        <h2>
+          Below is an interactive guide to help you make more sustainable
+          choices in your day to day life!
+        </h2>
       </div>
-      <div className='guide-responses'></div>
-      <div className='guide-feedback'>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum animi
-          illo ipsam optio, nulla possimus id soluta voluptas ducimus cumque.
-        </p>
+      <div className='guide-container'>
+        {GuideContent.ContentArr.map(guide => {
+          return (
+            <GuideCard Question={guide.Question} Options={guide.Options} />
+          );
+        })}
       </div>
     </div>
   );

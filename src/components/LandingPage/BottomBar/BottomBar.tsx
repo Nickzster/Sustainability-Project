@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/bottombar.css';
 
-export const BottomBar: React.FunctionComponent = () => {
+const BottomBar: React.FunctionComponent = () => {
   return (
     <div className='bottom-bar'>
       <h2>CSUSM Environment Studies 100</h2>
@@ -9,3 +9,5 @@ export const BottomBar: React.FunctionComponent = () => {
     </div>
   );
 };
+
+export default BottomBar;
