@@ -46,7 +46,7 @@
       {
         "title": "Resource # 1",
         "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "page/resource-one",
+        "url": "pages/resource-one",
         "imageName": "eyeball.svg"
       },
       {

@@ -1,3 +1,8 @@
+.page {
+  padding-top: 9em;
+  height: 100vh;
+}
+
 .paper {
   display: flex;
   flex-direction: column;
