@@ -15,12 +15,16 @@
 }
 
 .landing-banner > h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 1rem;
 }
 
+.landing-banner > h2 {
+  font-size: 0.95rem;
+}
+
 .chevron {
-  width: 5%;
+  width: 15%;
   height: auto;
 
   animation: move 1s infinite alternate;
@@ -43,12 +47,13 @@
 
 .card-section > h2 {
   /* margin: 1em; */
-  font-size: 2.5em;
+  font-size: 2em;
+  margin: 0em 1em;
 }
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   text-align: center;
   color: #000;
   /* background-color: #f2f2f2; */
@@ -95,7 +100,25 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .landing-banner > h1 {
+    font-size: 4rem;
+    margin: 1rem;
+  }
+  .landing-banner > h2 {
+    font-size: 1rem;
+  }
+  .card-section > h2 {
+    /* margin: 1em; */
+    font-size: 2.5em;
+  }
   .card {
     margin: 1em 5em;
+  }
+
+  .chevron {
+    width: 5%;
+    height: auto;
+
+    animation: move 1s infinite alternate;
   }
 }

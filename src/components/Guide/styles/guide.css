@@ -12,7 +12,7 @@
   background-color: green;
   text-align: center;
   padding: 1em 2em;
-  margin: 1em 2em;
+  margin: 1em 0.5em;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -28,6 +28,10 @@
   justify-content: center;
   align-content: center;
 }
+
+.guide-intro > h1 {
+  padding: 1em 2em;
+}
 .guide-intro > h2 {
   padding: 1em 2em;
 }
@@ -41,6 +45,9 @@
 @media only screen and (min-width: 600px) {
   .guide-container {
     grid-template-columns: 500px;
+  }
+  .guide-question {
+    margin: 1em 2em;
   }
 }
 
