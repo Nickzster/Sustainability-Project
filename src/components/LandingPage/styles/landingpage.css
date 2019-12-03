@@ -53,13 +53,13 @@
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: auto;
   text-align: center;
   color: #000;
   /* background-color: #f2f2f2; */
   align-content: center;
   justify-content: center;
-  margin: 0em 2em;
+  margin: 0em 0em;
 }
 
 .card-container > h2 {
@@ -100,6 +100,9 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
   .landing-banner > h1 {
     font-size: 4rem;
     margin: 1rem;
