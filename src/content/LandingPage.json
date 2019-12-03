@@ -3,19 +3,19 @@
     "title": "What is Sustainability?",
     "content": [
       {
-        "title": "Box One",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "title": "Environmental",
+        "body": "Taking care of our ecosystems and our environment alive and clean.",
         "imageName": "leaf.svg"
       },
       {
-        "title": "Box Two",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageName": "tree.svg"
+        "title": "Social & Economic",
+        "body": "Keeping our society healthy, maintaining our incomes, and staying ahead of technology.",
+        "imageName": "brain.svg"
       },
       {
-        "title": "Box Three",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "imageName": "brain.svg"
+        "title": "Balancing All Three",
+        "body": "The key to a sustainable society is balancing environment health, social health, and economic health to maintain resources for future generations.",
+        "imageName": "recycle.svg"
       }
     ]
   },
@@ -23,19 +23,21 @@
     "title": "How Can I Be More Sustainable?",
     "content": [
       {
-        "title": "Resource # 1",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "title": "Explore this website",
+        "body": "This website is full of rich information about sustainability that you can learn!",
         "imageName": "mountain.svg"
       },
       {
-        "title": "Take Our Quiz!",
-        "body": "Take Our Quiz Here!",
+        "title": "Follow our guide!",
+        "body": "Follow our sustainability guide Here!",
         "url": "/pages/live-more-sustainably",
         "imageName": "leaf.svg"
       },
       {
-        "title": "Resource # 3",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
+        "title": "Be aware of your impact",
+        "body": "Use this comprehensive guide to measure your ecological footprint!",
+        "url": "https://www.footprintcalculator.org/",
+        "externalUrl": true,
         "imageName": "sustainable-house.svg"
       }
     ]

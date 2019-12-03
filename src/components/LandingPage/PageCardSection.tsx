@@ -7,6 +7,7 @@ interface Content {
   body: string;
   url?: string;
   imageName?: string;
+  externalUrl?: boolean;
   extraStyling?: {
     width: string;
     height: string;
@@ -38,6 +39,10 @@ const CardPageSection: React.FunctionComponent<Props> = props => {
                 <h3>{card.title}</h3>
                 {card.url === undefined ? (
                   <p>{card.body}</p>
+                ) : card.externalUrl === true ? (
+                  <a href={card.url} target='_blank'>
+                    {card.body}
+                  </a>
                 ) : (
                   <Link to={card.url}>{card.body}</Link>
                 )}

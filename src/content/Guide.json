@@ -4,11 +4,15 @@
       "Question": "How do you get to school every day?",
       "Options": [
         {
+          "Selector": "I walk / bike",
+          "Feedback": "This is a great sustainable practice to get to school!"
+        },
+        {
           "Selector": "I drive",
           "Feedback": "If you are absolutely insistent on driving, then consider carpooling with your friends!"
         },
         {
-          "Selector": "I take the Sprinter",
+          "Selector": "I use public transportation",
           "Feedback": "This is a great way to travel more sustainably to campus!"
         },
         {
@@ -18,12 +22,21 @@
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "How often do you eat meat / animal products?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" },
-        { "Selector": "Option Four", "Feedback": "Option Four Feedback" }
+        {
+          "Selector": "Never",
+          "Feedback": "You are AWESOME! Good job on reducing your ecological footprint!"
+        },
+        {
+          "Selector": "Once a week or less",
+          "Feedback": "This is a good amount of meat to consume. If you want to reduce your meat consumption even more, you can find protein in different sources!"
+        },
+
+        {
+          "Selector": "More than once a week",
+          "Feedback": "Producing meat is very impactful on your ecological footprint, since it produces a lot of greenhouse gases. If possible, reduce your meat consumption!"
+        }
       ]
     },
     {
