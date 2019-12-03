@@ -46,15 +46,15 @@
     "title": "Want to Learn More?",
     "content": [
       {
-        "title": "Resource # 1",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "pages/resource-one",
+        "title": "CSUSM Sustainability",
+        "body": "Learn more about CSUSM's sustainability efforts!",
+        "url": "pages/csusm-sustainability",
         "imageName": "eyeball.svg"
       },
       {
-        "title": "Resource # 2",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "#",
+        "title": "50 sustainability tips",
+        "body": "Read our quick tips in how you can start living sustainably today!",
+        "url": "/pages/fifty-sustainable-tips",
         "imageName": "green-lightbulb.svg",
         "extraStyling": {
           "width": "100px",
@@ -62,9 +62,9 @@
         }
       },
       {
-        "title": "Resource # 3",
-        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ad.",
-        "url": "#",
+        "title": "Be involved!",
+        "body": "Read our guide here to learn how to educate yourself about enviroment issues!",
+        "url": "/pages/get-involved",
         "imageName": "recycle.svg"
       }
     ]

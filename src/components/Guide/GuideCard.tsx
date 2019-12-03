@@ -23,7 +23,7 @@ const GuideCard: React.FunctionComponent<Props> = props => {
   const { Question, Options } = props;
   return (
     <div className='guide-question'>
-      <h2>{Question}</h2>
+      <h2 className='question'>{Question}</h2>
       <br />
       <div className='guide-responses'>
         <select
@@ -45,7 +45,7 @@ const GuideCard: React.FunctionComponent<Props> = props => {
         </select>
         <br />
         <br />
-        <p>{value}</p>
+        <p className='feedback'>{value}</p>
       </div>
     </div>
   );

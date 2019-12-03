@@ -40,67 +40,135 @@
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "How do you drink your beverages?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "I use a plastic bottle",
+          "Feedback": "You should try using a reuseable water bottle! If you are absolutely insistant on using plastic bottles, then try using CSUSM's hydration stations!"
+        },
+        {
+          "Selector": "I use my own bottle",
+          "Feedback": "This is a great step to being more sustainable with your liquid consumption!"
+        },
+        {
+          "Selector": "I don't drink anything",
+          "Feedback": "Well, that's an issue then. We highly encourage you to see a doctor."
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "Do you recycle?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Yes",
+          "Feedback": "Great! This is an excellent sustainable practice. Make sure you recycle correctly though!"
+        },
+        {
+          "Selector": "It's too much work",
+          "Feedback": "Well, if you don't want to burn to death due to climate change, you best knock off that attitude! On CSUSM, the staff make it very easy to recycle. If there is a missing trash can, you can contact the sustainability manager!"
+        },
+        {
+          "Selector": "I don't have a recycle bin",
+          "Feedback": "Then recycle on CSUSM! The Sustainability team takes great pride in making sure everything is recycled properly. If you cannot find a trash can or recycle bin, just contact the sustainability manager!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "How often do you buy new clothing?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Once a year or less",
+          "Feedback": "Great! Buying clothes only when you need them is a great sustainable practice."
+        },
+        {
+          "Selector": "Once a month",
+          "Feedback": "You should consider buying clothes only if you need them. This will also help you save money! Might as well knock out two birds with one stone!"
+        },
+        {
+          "Selector": "Once a week or more",
+          "Feedback": "You must either get into a lot of fights, love rolling around in mud, or want to be hip in fashion. We recommend that you buy clothes only when you need them. Not only will you help the planet, but think about the money you'll save!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "Did you remember to turn off your lights before going to class?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Yes",
+          "Feedback": "Good job. Not only are you saving on your electrical bill, but you're also being sustainable!"
+        },
+        {
+          "Selector": "No",
+          "Feedback": "Well, it's certainly not our energy bill that is being used up, but it is our planet! Try to remember next time and be more sustainable!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "Do you use LED light bulbs?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Yes",
+          "Feedback": "This is a great sustainable choice for both your wallet and the planet!"
+        },
+        {
+          "Selector": "No",
+          "Feedback": "If possible, install LED light bulbs! This will help your wallet and the environment!"
+        },
+        {
+          "Selector": "Not my choice",
+          "Feedback": "Try to convince your landlord or boss to switch to LED light bulbs! You will not only save money, but you will also impact our environment in a positive way!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "Do you use solar power?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Yes",
+          "Feedback": "This is a great sustainable practice to not only reduce your power usage, but it will also bring your energy bill down!"
+        },
+        {
+          "Selector": "No",
+          "Feedback": "We understand it can be expensive, but think about the long term: you'll probably save more money by spending less on your energy bill!"
+        },
+        {
+          "Selector": "I don't know",
+          "Feedback": "Try to find out by doing some research. If you are not in a position to install solar power, then try convincing a landlord or your boss to install solar panels!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "How long do you take showers?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "Less than 5 minutes",
+          "Feedback": "This is a great way to be sustainable! Just make sure you are doing a good job washing yourself!"
+        },
+        {
+          "Selector": "More than 5 minutes",
+          "Feedback": "This is a good start. Try taking shorter showers on specific days."
+        },
+        {
+          "Selector": "More than an hour",
+          "Feedback": "Unless you have a lot of hair to wash, you should try showering less. Not only is it a waste of water in Southern California drought, but it costs a lot of money on your water bill!"
+        }
       ]
     },
     {
-      "Question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, est?",
+      "Question": "Do you buy produce locally?",
       "Options": [
-        { "Selector": "Option One", "Feedback": "Option One Feedback" },
-        { "Selector": "Option Two", "Feedback": "Option Two Feedback" },
-        { "Selector": "Option Three", "Feedback": "Option Three Feedback" }
+        {
+          "Selector": "I go to the farmer's market",
+          "Feedback": "This is a good way to be sustainable! Fresh, healthy produce for your stomach, and a happy environment!"
+        },
+        {
+          "Selector": "I buy them at Ralphs",
+          "Feedback": "Make sure to double check the stickers on the produce. If possible, buy local produce!"
+        },
+        {
+          "Selector": "I grow my own",
+          "Feedback": "This is an excellent way to be sustainable."
+        }
       ]
     }
   ]
