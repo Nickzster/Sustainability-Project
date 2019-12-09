@@ -19,9 +19,9 @@
 }
 
 .paper > p {
-  padding: 1em 2em;
+  padding: 1em 4em;
   text-align: justify;
-  line-height: 1.3em;
+  line-height: 1.7em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -31,6 +31,6 @@
 }
 @media only screen and (min-width: 1000px) {
   .page {
-    height: 100vh;
+    height: auto;
   }
 }

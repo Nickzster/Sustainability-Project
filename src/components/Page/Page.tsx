@@ -8,6 +8,7 @@ import './styles/page.css';
 interface PageContent {
   title: string;
   body: string;
+  author: string;
 }
 
 interface Params {
@@ -31,7 +32,8 @@ const Page: React.FunctionComponent<Props> = props => {
     <div className='page'>
       <div className='paper'>
         <h2>{currentPageContent.title}</h2>
-        <p>{currentPageContent.body}</p>
+        <h3>Written by {currentPageContent.author}</h3>
+        <p dangerouslySetInnerHTML={{ __html: currentPageContent.body }} />
         <Link style={{ marginBottom: '1.5em' }} to='/'>
           Go Back Home
         </Link>

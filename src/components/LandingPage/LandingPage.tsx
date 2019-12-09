@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
+import BottomBar from './BottomBar/BottomBar';
 import LandingBanner from './LandingBanner';
 import PageCardSection from './PageCardSection';
 import LandingPageContent from '../../content/LandingPage.json';
@@ -23,6 +24,7 @@ const LandingPage: React.FunctionComponent = () => {
           content={LandingPageContent.ExtendedLearning.content}
         />
       </div>
+      <BottomBar />
     </React.Fragment>
   );
 };

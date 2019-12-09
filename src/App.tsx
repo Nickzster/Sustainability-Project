@@ -5,7 +5,6 @@ import Guide from './components/Guide';
 import Page from './components/Page';
 import NotFound from './components/NotFound/NotFound';
 import NavBar from './components/NavBar/NavBar';
-import BottomBar from './components/LandingPage/BottomBar/BottomBar';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './styles/global.css';
 
@@ -21,7 +20,6 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </Router>
-      <BottomBar />
     </div>
   );
 }
